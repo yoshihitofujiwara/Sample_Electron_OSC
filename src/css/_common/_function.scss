@@ -1,0 +1,11 @@
+///*==========================================================================
+//	function
+//==========================================================================*/
+
+// @function pxToVw 横幅基準にpxをvwに変換
+// @param {number} $num 変換するサイズ
+// @param {number} $base 基準となる横幅(px)
+// @return {vw}
+@function pxToVw($num, $base: $SP_DESIGN_WIDTH) {
+  @return 100vw * ($num / $base);
+}

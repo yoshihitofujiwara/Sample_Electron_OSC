@@ -1,0 +1,17 @@
+// @_import
+@import "_common/import";
+
+// @_common
+@import "_common/keyframe";
+@import "_common/reset";
+@import "_common/util";
+@import "_common/global";
+
+// NOT SP
+// @media #{$MQ_NOT_SP}{}
+
+// SP
+// @media #{$MQ_SP}{
+//   @import "_common/_sp.scss";
+// }
+

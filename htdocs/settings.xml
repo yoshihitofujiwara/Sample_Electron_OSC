@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<!-- 送信 IP・PORT -->
+	<clientIP>000.00.0.00</clientIP>
+	<clientPort>20000</clientPort>
+
+	<!-- 受信 PORT -->
+	<serverPort>22222</serverPort>
+</settings>

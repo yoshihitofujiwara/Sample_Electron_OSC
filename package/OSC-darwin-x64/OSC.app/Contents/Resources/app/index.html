@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Electron OSC</title>
+	<link rel="stylesheet" href="assets/css/styles.css" media="all">
+</head>
+
+<body>
+	<section id="client" class="box">
+		<h1>OSC送信メッセージ</h1>
+		<select>
+			<option value="/OSC 1">/OSC 1</option>
+			<option value="/OSC 2">/OSC 2</option>
+			<option value="/OSC 3">/OSC 3</option>
+			<option value="/OSC 4">/OSC 4</option>
+			<option value="/OSC 5">/OSC 5</option>
+		</select>
+		<button>OSC送信</button>
+	</section>
+
+	<section id="server" class="box">
+		<h1>OSC受信ログ</h1>
+		<dd><textarea readonly id="log" cols="50" rows="10"></textarea></dd>
+		<button id="log_clear">OSC受信ログ クリア</button>
+	</section>
+
+	<script src="assets/js/renderer.js"></script>
+	</body>
+</html>
